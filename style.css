@@ -63,12 +63,20 @@ ul {
     padding: 0;
 }
 
-.sign-up1 {
+.sign-up1,
+.signup2 {
     color: #F9FAF8;
     background-color: #3882F6;
     padding: 8px 20px;
     font-weight: 600;
     border-radius: 10px;
+    border-style: hidden;
+}
+
+.signup2 {
+    border-color: #ffffff;
+    border-width: 2px;
+    border-style: solid;
 }
 
 .image {
@@ -112,7 +120,15 @@ padding: 40px 250px;
 }
 
 .section4 {
-
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ gap: 100px;
+ background-color: #3882F6;
+ color:#F9FAF8;
+ margin-bottom: 30px;
+ padding: 20px 40px;
+ border-radius: 8px;
 }
 
 .imgg {
@@ -149,4 +165,12 @@ h2 {
 .thor {
     text-align: end;
     font-weight: 600;
+}
+
+.itstime {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    flex-wrap: wrap;
 }
